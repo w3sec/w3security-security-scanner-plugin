@@ -1,0 +1,11 @@
+tool:
+  w3security:
+    installations:
+    - name: "w3security"
+      properties:
+      - installSource:
+          installers:
+          - w3securityInstaller:
+              platform: LINUX
+              updatePolicyIntervalHours: 36
+              version: "1.947.0"
